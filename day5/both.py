@@ -1,4 +1,4 @@
-units = list(''.join(open('input.txt','r').readlines()).strip())
+units = list(open('input.txt').read().strip())
 
 def compare_chars(c1,c2):
     return c1.isupper() != c2.isupper() and c1.lower() == c2.lower()
